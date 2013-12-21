@@ -1,21 +1,24 @@
 ---
 layout: post
 
-title: Jekyll Incorporated Features
-subtitle: "What's in the box"
+title: New blog design
+subtitle: "Based on Incorporated"
 cover_image: blog-cover.jpg
 
 excerpt: "Incorporated provides a great typography, responsive design, author details, semantic markup and more."
 
 author:
-  name: Karri Saarinen
-  twitter: karrisaarinen
-  gplus: 100687498195339762535 
-  bio: Co-founder, Design
+  name: Anthony Short
+  twitter: anthonyshort
+  bio: Designer, Front-end Developer
   image: ks.png
 ---
 
-Incorporated provides a great typography, responsive design, author details, semantic markup and more.
+Update: Max Wheeler has graciously thrown together a demo page showing it in action.
+
+A few weeks ago Chris Buttery and myself came up with a method for easily serving retina images with no double download side-effects. This technique has probably been done before but I thought I'd document it here for anyone that might find it useful.
+
+There are already a few solutions out there for using retina images using sass, like this, and this.
 
 You can set customize post covers, and other things directly in the post front matter:
 
@@ -34,10 +37,10 @@ excerpt: "Incorporated provides a great typography, responsive design, author de
 author:
   name: Karri Saarinen
   twitter: karrisaarinen
-  gplus: 100687498195339762535 
+  gplus: 100687498195339762535
   bio: Co-founder, Design
   image: ks.jpg
-  
+
 # Keep it as draft, not published in index.html or feed.xml
 draft: false
 {% endhighlight %}
@@ -56,7 +59,7 @@ $fontheadings: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 /* Text colors */
 $text: #21272d;
 $textmuted: #848484;
-$accent: #2077b2;    
+$accent: #2077b2;
 {% endhighlight %}
 
 config.yml:
@@ -66,37 +69,37 @@ inc:
   title:        "Jekyll Incorporated"
   subtitle:     "Modern Jekyll based blog for companies"
   cover_image:  blog-cover.jpg
-  
+
   # Company information
   company:      Incorporated
   url:          http://incorporated.sendtoinc.com/
   facebook:     sendtoinc
   twitter:      sendtoinc
   about_link:   https://sendtoinc.com/about/
-  
+
   # Product Information
   product_link: http://incorporated.sendtoinc.com/
   tagline:      "Get a modern blog for your company"
-  
+
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
     shortname:  false
-  
-  
+
+
   # Sharing settings
   sharing:
     twitter:    false
     facebook:   false
     gplus:      false
     hn:         false
-    
-  
- # Analytics     
+
+
+ # Analytics
   analytics:
-    google: 
+    google:
       # eg. 'UA-123-12'
-      id:       false    
+      id:       false
 {% endhighlight %}
 
 **Zoomable images**

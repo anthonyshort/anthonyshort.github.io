@@ -1,0 +1,20 @@
+.ArticleIndex {
+  margin:0 5em;
+}
+
+.ArticleIndex > div{
+  display: table-cell;
+}
+
+.ArticleIndex-title {
+  margin: 0em 0 0.6em;
+}
+
+.ArticleIndex-avatar {
+  float:left;
+  border-radius:62px;
+  height:48px;
+  width:48px;
+  margin-top:0;
+  margin-right:30px;
+}
