@@ -1,18 +1,31 @@
 .ArticleIndex {
-  padding-top: 100px;
-  padding-bottom: 150px;
-  width: 35em;
-  padding-left: 170px;
+  padding: 50px 50px 100px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
 .ArticleIndex-aside {
-  width: 170px;
-  position: fixed;
-  margin-left: -170px;
+  margin: 0 auto 50px;
+  max-width: 400px;
 }
 
-.ArticleIndex-content {
-  overflow: hidden;
-  padding-left: 75px;
+@media (min-width: 850px) {
+  .ArticleIndex {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 170px;
+    padding-right: 0;
+    max-width: 35em;
+  }
+  .ArticleIndex-aside {
+    width: 170px;
+    position: fixed;
+    margin-left: -170px;
+  }
+  .ArticleIndex-content {
+    overflow: hidden;
+    padding-left: 75px;
+    margin: 0;
+    max-width: none;
+  }
 }

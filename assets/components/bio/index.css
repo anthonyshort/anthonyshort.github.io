@@ -1,11 +1,10 @@
 .Bio {
-  text-align: right;
+  text-align: center;
   color: #848484;
-  font-size: 14px;
+  font-size: 21px;
   line-height: 1.4;
   font-family: 'Droid Serif';
   font-style: italic;
-  max-width: 170px;
 }
 
 .Bio-avatar {
@@ -22,8 +21,8 @@
   overflow: hidden;
   text-align: left;
   background-size: contain;
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
   background-repeat: no-repeat;
   vertical-align: top;
   opacity: 0.5;
@@ -40,4 +39,15 @@
 .Bio-links .github {
   background-image: url(images/github.svg);
   margin-top: -2px;
+}
+
+@media (min-width: 850px) {
+  .Bio {
+    font-size: 14px;
+    text-align: right;
+  }
+  .Bio-links a {
+    height: 20px;
+    width: 20px;
+  }
 }

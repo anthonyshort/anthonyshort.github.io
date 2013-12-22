@@ -580,30 +580,29 @@ table {
 }
 
 .Article {
-  padding:120px 0 200px;
+  padding:50px 50px 200px;
+}
+
+.Article-index,
+.Article-avatar {
+  vertical-align: middle;
+  margin-bottom: 50px;
+  margin-right: 20px;
 }
 
 .Article-index {
   background-image: url("article/./images/index.svg");
   height: 15px;
   width: 20px;
-  display: block;
+  display: inline-block;
   overflow: hidden;
   text-indent: -999px;
-  position: absolute;
-  left: -95px;
-  top: 100px;
   opacity: 0.5;
   transition: opacity 500ms linear;
 }
 
 .Article-index:hover {
   opacity: 1;
-}
-
-.Article-avatar {
-  position: absolute;
-  left: -120px;
 }
 
 .Article-header {
@@ -644,23 +643,51 @@ table {
   color: #848484;
   font-weight: 300;
 }
+
+@media (min-width: 850px) {
+  .Article {
+    padding-top: 120px;
+  }
+  .Article-avatar {
+    position: absolute;
+    left: -120px;
+  }
+  .Article-index {
+    position: absolute;
+    left: -95px;
+    top: 100px;
+  }
+}
 .ArticleIndex {
-  padding-top: 100px;
-  padding-bottom: 150px;
-  width: 35em;
-  padding-left: 170px;
+  padding: 50px 50px 100px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
 .ArticleIndex-aside {
-  width: 170px;
-  position: fixed;
-  margin-left: -170px;
+  margin: 0 auto 50px;
+  max-width: 400px;
 }
 
-.ArticleIndex-content {
-  overflow: hidden;
-  padding-left: 75px;
+@media (min-width: 850px) {
+  .ArticleIndex {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 170px;
+    padding-right: 0;
+    max-width: 35em;
+  }
+  .ArticleIndex-aside {
+    width: 170px;
+    position: fixed;
+    margin-left: -170px;
+  }
+  .ArticleIndex-content {
+    overflow: hidden;
+    padding-left: 75px;
+    margin: 0;
+    max-width: none;
+  }
 }
 .ArticleExcerpt {
   font-size: 18px;
@@ -758,13 +785,12 @@ table {
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 .Bio {
-  text-align: right;
+  text-align: center;
   color: #848484;
-  font-size: 14px;
+  font-size: 21px;
   line-height: 1.4;
   font-family: 'Droid Serif';
   font-style: italic;
-  max-width: 170px;
 }
 
 .Bio-avatar {
@@ -781,8 +807,8 @@ table {
   overflow: hidden;
   text-align: left;
   background-size: contain;
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
   background-repeat: no-repeat;
   vertical-align: top;
   opacity: 0.5;
@@ -799,6 +825,17 @@ table {
 .Bio-links .github {
   background-image: url("bio/./images/github.svg");
   margin-top: -2px;
+}
+
+@media (min-width: 850px) {
+  .Bio {
+    font-size: 14px;
+    text-align: right;
+  }
+  .Bio-links a {
+    height: 20px;
+    width: 20px;
+  }
 }
 .Avatar {
   background-image: url("avatar/./images/anthony.jpg");
