@@ -1,5 +1,5 @@
 build: install ./stylesheets/index.css ./stylesheets/components
-	cd stylesheets && component build
+	cd stylesheets && component build --copy
 	cat stylesheets/build/build.css | myth | cleancss > stylesheets/build/build.min.css
 
 install: ./stylesheets/component.json
