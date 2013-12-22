@@ -1,0 +1,126 @@
+.Copy h2,
+.Copy h3,
+.Copy h4,
+.Copy h5 {
+    color:#263c4c;
+}
+
+.Copy h2 {
+  font-size:1.5em;
+  margin: 1.5em 0 .5em;
+  font-weight:300;
+}
+
+.Copy h3 {
+  font-size:1.3em;
+  font-weight: 300;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+.Copy h4 {
+  font-size:1em;
+  font-weight:600;
+  margin-top: 2em;
+  margin-bottom: .5em;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #848484;
+}
+
+.Copy p {
+  font-weight:400;
+  margin:0 0 1em;
+}
+
+.Copy ol,
+.Copy ul {
+  font-weight: 600;
+  margin: 1.5em 0;
+  padding: 0;
+  list-style-position: outside;
+  padding-left: 1.5em;
+}
+
+.Copy li {
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+.Copy blockquote {
+  border: 0;
+  font-size: 24px;
+  font-family: "Droid Serif", "Georgia", serif;
+  margin: 2em 0;
+  color: var(accent);
+  padding:0;
+  position: relative;
+  font-style: italic;
+}
+
+.Copy blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.Copy blockquote::before {
+  content: '“';
+  display: block;
+  position: absolute;
+  font-size: 120px;
+  left: -70px;
+  top: -15px;
+  line-height: 1;
+}
+
+.Copy blockquote::after {
+  content:" ";
+  display:block;
+  width:1.5em;
+  height:0.2em;
+  background:#ddd;
+  margin:1em 0;
+}
+
+.Copy figure {
+  margin: 3em -2em;
+}
+
+.Copy figcaption {
+  color:#848484;
+  font-size:13px;
+  text-transform:uppercase;
+  font-weight:400;
+  background: whitesmoke;
+  padding: 1em;
+}
+
+.Copy img {
+  width:100%;
+  display: block;
+}
+
+.Copy a {
+  color: var(accent);
+  text-decoration:none;
+  transition: color 0.2s ease;
+}
+
+.Copy a:hover {
+  color: var(dark-accent);
+}
+
+.Copy pre {
+  padding: 3em 3em 3.5em;
+  margin: 2em 0 3em 0;
+  background: whitesmoke;
+  border-radius: 4px;
+  border-bottom:1px solid #ddd;
+  font-size:0.8em;
+  overflow: hidden;
+  display:block;
+}
+
+.Copy > code {
+  color:#222;
+  background: whitesmoke;
+}

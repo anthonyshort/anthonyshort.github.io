@@ -1,0 +1,8 @@
+{
+  "name": "bio",
+  "styles": ["index.css"],
+  "images": [
+    "images/twitter.svg",
+    "images/github.svg"
+  ]
+}

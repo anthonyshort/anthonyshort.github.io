@@ -1,0 +1,24 @@
+{
+  "name": "site",
+  "styles": [
+    "index.css"
+  ],
+  "paths": [
+    "../components"
+  ],
+  "local": [
+    "droid-sans",
+    "droid-serif",
+    "grid",
+    "copy",
+    "article",
+    "article-index",
+    "article-excerpt",
+    "syntax-highlighting",
+    "bio",
+    "avatar"
+  ],
+  "dependencies": {
+    "necolas/normalize.css": "*"
+  }
+}

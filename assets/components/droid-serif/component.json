@@ -1,0 +1,12 @@
+{
+  "name": "droid-serif",
+  "fonts": [
+    "DroidSerif.ttf",
+    "DroidSerif-Bold.ttf",
+    "DroidSerif-Italic.ttf",
+    "DroidSerif-BoldItalic.ttf"
+  ],
+  "styles": [
+    "index.css"
+  ]
+}

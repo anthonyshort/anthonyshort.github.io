@@ -1,0 +1,6 @@
+{
+  "name": "syntax-highlighting",
+  "styles": [
+    "index.css"
+  ]
+}

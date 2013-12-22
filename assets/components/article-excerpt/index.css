@@ -1,0 +1,35 @@
+.ArticleExcerpt {
+  font-size: 18px;
+  margin-bottom: 1.5em;
+}
+
+.ArticleExcerpt::after {
+  content:" ";
+  display:block;
+  width:1.5em;
+  height:0.2em;
+  background:#ddd;
+  margin:1em 0;
+}
+
+.ArticleExcerpt-title a {
+  font-weight:bold;
+  letter-spacing: -1px;
+  font-size: 1.5em;
+  line-height: 1.1;
+  color: var(accent);
+  font-family: var(display-font);
+}
+
+.ArticleExcerpt-title a:hover {
+  color: var(dark-accent);
+}
+
+.ArticleExcerpt-meta {
+  color:#848484;
+  font-size:13px;
+  text-transform:uppercase;
+  margin-bottom:0.3em;
+  font-weight:400;
+  letter-spacing:1px;
+}

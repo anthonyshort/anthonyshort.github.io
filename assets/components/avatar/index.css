@@ -1,0 +1,11 @@
+.Avatar {
+  background-image: url('images/anthony.jpg');
+  height: 70px;
+  width: 70px;
+  background-size: 70px;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 9999px;
+  white-space: nowrap;
+}

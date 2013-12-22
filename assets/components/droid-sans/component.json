@@ -1,0 +1,10 @@
+{
+  "name": "droid-sans",
+  "fonts": [
+    "DroidSans.ttf",
+    "DroidSans-Bold.ttf"
+  ],
+  "styles": [
+    "index.css"
+  ]
+}

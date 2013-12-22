@@ -1,0 +1,11 @@
+.Grid {
+  font-size: 18px;
+  line-height:1.4;
+}
+
+.Grid-content {
+  box-sizing: border-box;
+  max-width: 30em;
+  margin: 0 auto;
+  position: relative;
+}
