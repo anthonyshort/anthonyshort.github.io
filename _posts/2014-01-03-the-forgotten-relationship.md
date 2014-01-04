@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The forgotten relationship
-subtitle: "Remembering the days when things were simple."
+title: The Forgotten Relationship
+subtitle: "Remembering when things were simple."
 date: 2014/01/03
 ---
 
