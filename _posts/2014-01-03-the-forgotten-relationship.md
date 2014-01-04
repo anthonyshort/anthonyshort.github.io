@@ -9,7 +9,7 @@ Not so long ago there existed books for reading, albums for listening, diaries f
 
 At some point we thought it would be nice not having to carry all of this around with us so we boxed it all up, removed it from our homes and kept it on a hard drive.
 
-We changed the way technology we used our daily life. Instead of having something that did one thing well we had something that did everything at once.
+We changed the way technology was used in our daily life. Instead of having something that did one thing well we had something that did everything at once.
 
 Life was grand.
 
